@@ -269,6 +269,10 @@ Optional Information fields
   be the date the component was provisioned, in an ISO date format such as
   'YYYY-MM-DD'.
 
+- versioning_schema: Versioning schema used for version field,
+  for example, `SemVer v2.0.0` or `CalVer`. If the version was made from the date
+  the component was provisioned, value `ProvisionDate` should be used.
+
 - spec_version: The version of the ABOUT file format specification used for this
   file. This is provided as a hint to readers and tools in order to support
   future versions of this specification.
